@@ -5,9 +5,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* .carousel {
+   height: calc(100vh - 56px);
+  }
+.carousel-inner,.carousel-item { 
+  height: 100%;
+}
+.carousel-item {
+   background-color: #000;
+  } */
+.carousel-item > img {
+  object-fit: cover;
+  height: calc(100vh - 56px);
+  width: 100%;
+}
+.loginImg {
+
+  object-fit: cover;
+  height: calc(100vh - 56px);
+   width: 100%;
+}
+.signUpDiv{
+  overflow: hidden;
+}
+
+
+
